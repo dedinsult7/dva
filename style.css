@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 1440px; */
+    height: 80px;
+    flex-shrink: 0; 
+    background-color: #2B3844;
+    color: white;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    width: 136px;
+height: 40px;
+flex-shrink: 0;
+}
+@media(max-width: 800px){
+    .all{
+        flex-direction: column;
+    }
+    /* .right img{
+        width: 200px;
+        height: 200px;
+    } */
+    /* .left{
+        flex-direction: column;
+    } */
+    }
